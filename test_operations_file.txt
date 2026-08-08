@@ -1,0 +1,15 @@
+submit sleep 5
+submit echo "hello world"
+submit ls -la
+submit sleep 10
+status 1
+status-all
+show-active
+show-pools
+suspend 1
+resume 1
+show-finished
+status-all
+submit sleep 50
+submit sleep 50
+submit sleep 50
